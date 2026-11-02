@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this project in your academic research or evaluations, please cite it as below."
+authors:
+  - family-names: Silva
+    given-names: Geovana
+    orcid: "https://orcid.org/0009-0000-0000-0000"
+title: "Enterprise GCP E-Commerce Modern Data Platform: Medallion Architecture, Quality Assurance, and Predictive Analytics"
+version: 1.0.0
+date-released: 2026-11-01
+url: "https://github.com/Geovana28/gcp-ecommerce-lakehouse"
+repository-code: "https://github.com/Geovana28/gcp-ecommerce-lakehouse"
+keywords:
+  - "data engineering"
+  - "google cloud platform"
+  - "bigquery"
+  - "medallion architecture"
+  - "star schema"
+  - "reproducible analytics"
+license: MIT
+

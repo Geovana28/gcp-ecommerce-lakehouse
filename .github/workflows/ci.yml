@@ -1,0 +1,25 @@
+name: Data Quality & SQL Pipeline CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-medallion-sql:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Install pytest
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    - name: Run Medallion SQL Data Quality & Integrity Tests
+      run: |
+        pytest tests/ -v
+
