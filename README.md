@@ -5,9 +5,18 @@
 [![Architecture: Medallion](https://img.shields.io/badge/Architecture-Medallion_(Bronze/Silver/Gold)-blue?style=for-the-badge)](https://github.com/Geovana28/gcp-ecommerce-lakehouse)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-Pipeline de Engenharia e Análise de Dados ponta a ponta (*End-to-End*) utilizando a **Arquitetura Medalhão (Bronze ➔ Silver ➔ Gold)** no ecossistema **Google Cloud Platform (GCP)** com **BigQuery**, **Cloud Storage**, **Python** e modelagem dimensional (*Star Schema*).
-
+> **🇧🇷 Idioma**: Português (Brasil) | **🇺🇸 [English Executive Summary](#-english-executive-summary)**
+>
+> Pipeline de Engenharia e Análise de Dados ponta a ponta (*End-to-End*) utilizando a **Arquitetura Medalhão (Bronze ➔ Silver ➔ Gold)** no ecossistema **Google Cloud Platform (GCP)** com **BigQuery**, **Cloud Storage**, **Python** e modelagem dimensional (*Star Schema*).
+>
 > 💡 **Experimente a Demonstração Interativa:** Acesse o [**Interactive Showcase (GitHub Pages)**](https://geovana28.github.io/gcp-ecommerce-lakehouse/) para explorar os simuladores de SLA, gráficos interativos de lead time e a modelagem formal sem precisar clonar ou instalar nada.
+
+---
+
+### 🌐 English Executive Summary
+**GCP E-Commerce Modern Data Platform** is an enterprise data engineering and analytics solution built by **Geovana Luiza Morais Moreira** on Google Cloud Platform. Structured around the Medallion Architecture (Bronze ➔ Silver ➔ Gold), it moves 100k+ Brazilian e-commerce transactions from Google Cloud Storage into partitioned/clustered BigQuery datasets. Features dimensional Star Schema modeling (Facts & Dimensions), delivery SLA tracking, customer retention cohorts, reproducible 1-click Google Colab notebooks, and sub-second query performance.
+
+---
 
 ---
 
